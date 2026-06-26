@@ -313,6 +313,121 @@ Pada tahap *retrieval* murni, TF-IDF dan IndoBERT relatif setara — TF-IDF just
 
 ---
 
+## Mereplikasi untuk Domain / Pengadilan Lain
+
+Proyek ini dirancang untuk putusan kasasi **peradilan anak (ABH) di Mahkamah Agung RI**, namun pipeline-nya bisa diadaptasi untuk domain lain (misal: putusan tipikor, perdata, pengadilan negeri tertentu). Berikut bagian kode yang perlu disesuaikan:
+
+---
+
+### `01_preprocessing.ipynb` — Scraping & Filter
+
+| Variabel / Baris | Lokasi | Yang perlu diubah |
+|-----------------|--------|-------------------|
+| `BASE_URL` | Cell 1 | URL direktori putusan MA sesuai kategori yang dituju |
+| `KATEGORI_URL` | Cell 1 | Path kategori di situs MA (misal `/kategori/tipikor.html`) |
+| `TAHUN_MINIMAL` / `TAHUN_MAKSIMAL` | Cell 1 | Rentang tahun putusan yang ingin dikumpulkan |
+| Filter kasasi murni | Cell 1 | Logika filter tingkatan perkara — ubah jika bukan kasasi (misal banding/PK) |
+| Marker struktural validasi | Cell 12 | Daftar penanda struktural khas dokumen — tiap jenis putusan punya penanda berbeda |
+| `'jenis' : 'putusan kasasi MA'` | Cell 16 | Label jenis dokumen untuk metadata |
+
+---
+
+### `02_case_representation.ipynb` — Ekstraksi Metadata & Fitur
+
+| Variabel / Fungsi | Lokasi | Yang perlu diubah |
+|------------------|--------|-------------------|
+| `RE_NOMOR` (regex nomor perkara) | Cell 4 | Format nomor perkara berbeda per jenis & pengadilan |
+| `RE_PASAL` (regex pasal) | Cell 4 | Pola pasal bisa berbeda tergantung jenis perkara |
+| `RE_AMAR` (regex amar putusan) | Cell 4 | Kata kunci amar: `menolak`, `mengabulkan`, `memperbaiki` — sesuaikan dengan domain |
+| Deteksi `outcome_kasasi` | Cell 8 | Label outcome (`DITOLAK`, `DIKABULKAN`, `DIPERBAIKI`) dan kata kunci pendeteksinya |
+| `feat['memori_kasasi']` | Cell 10 | Pola regex penanda struktural memori kasasi — ganti sesuai struktur dokumen domain baru |
+| Field representasi case | Cell 12 | Tambah/hapus field sesuai informasi yang relevan di domain baru |
+
+---
+
+### `03_case_retrieval.ipynb` — Retrieval
+
+Umumnya **tidak perlu diubah** — TF-IDF, IndoBERT, dan SVM bersifat generik. Yang mungkin perlu disesuaikan:
+
+- **Bobot field representasi teks** — jika domain baru punya field yang lebih/kurang informatif dari `memori_kasasi`
+- **Label kelas** di SVM — otomatis mengikuti nilai `outcome_kasasi` dari case base
+
+---
+
+### `04_case_reuse.ipynb` — Prediksi Outcome
+
+- **Label minority class** untuk `minority_boost` — ubah jika kelas minoritas di domain baru berbeda
+- **Confidence threshold** (`>= 0.40`) pada Hybrid BERT+SVM — bisa di-tune sesuai distribusi kelas baru
+
+---
+
+> **Catatan:** Bagian yang paling krusial adalah regex di `02_case_representation.ipynb` Cell 4 dan 8.
+> Kualitas ekstraksi metadata (terutama `outcome_kasasi`) langsung menentukan kualitas seluruh pipeline CBR.
+> Disarankan uji regex terlebih dahulu pada 5–10 dokumen sampel sebelum menjalankan pipeline penuh.
+
+## Replikasi Tanpa Scraping Ulang
+
+Jika PDF putusan sudah tersedia (hasil scraping sebelumnya atau diperoleh dari sumber lain), pipeline bisa langsung dimulai dari **`02_case_representation.ipynb`** tanpa menjalankan NB01. Pastikan tiga hal berikut sudah terpenuhi sebelum menjalankan NB02:
+
+---
+
+### 1. Struktur folder harus sudah ada
+
+```
+data/
+├── pdf/        ← file PDF putusan (wajib ada, dibaca NB02)
+├── raw/        ← teks bersih per kasus (wajib ada, dibaca NB02)
+└── tokens/     ← token per kasus (dibuat NB01, dibaca NB02 via log)
+```
+
+Jika folder belum ada, buat manual:
+
+```bash
+mkdir -p data/pdf data/raw data/tokens logs
+```
+
+---
+
+### 2. File di `data/raw/` harus sesuai format NB01
+
+NB02 membaca file `.txt` dari `data/raw/` yang dihasilkan NB01 dengan format:
+
+```
+# satu file per kasus: case_001.txt, case_002.txt, dst.
+# isi: teks bersih paragraf utuh (lowercase, tanpa header/footer PDF)
+```
+
+Jika PDF diperoleh dari sumber lain, ekstrak teks terlebih dahulu menggunakan `pdfplumber` dan simpan ke `data/raw/` dengan nama file yang konsisten (`case_NNN.txt`).
+
+---
+
+### 3. File `logs/cleaning.log` harus ada
+
+NB02 membaca file log hasil NB01 (`LOG_PATH`) untuk mengetahui pasangan `file_pdf ↔ file_output` per kasus. Format CSV-nya:
+
+```
+case_id, file_pdf, file_output, status, ...
+```
+
+Jika log tidak ada, NB02 akan gagal di Cell 12. Dua solusi:
+
+- **Solusi A** — Buat log manual sesuai format di atas untuk setiap file PDF yang dimiliki
+- **Solusi B** — Jalankan hanya bagian preprocessing NB01 (Cell 4–16, lewati Cell 1–3 yang berisi scraper) dengan menempatkan PDF secara manual ke `data/pdf/`
+
+---
+
+### Ringkasan cepat
+
+| Yang harus disiapkan | Dari mana |
+|----------------------|-----------|
+| `data/pdf/*.pdf` | Hasil scraping / download manual dari direktori MA |
+| `data/raw/*.txt` | Hasil ekstraksi teks NB01, atau ekstraksi manual dengan pdfplumber |
+| `logs/cleaning.log` | Hasil NB01, atau dibuat manual sesuai format |
+| `progress_checkpoint_cbr.txt` | Tidak dibutuhkan NB02+ — boleh tidak ada |
+| `riwayat_terunduh_cbr.txt` | Tidak dibutuhkan NB02+ — boleh tidak ada |
+
+> **Rekomendasi:** Daripada menyiapkan semua manual, jalankan saja **Cell 4–16 di NB01** (bagian preprocessing PDF, bukan scraping) setelah menempatkan PDF secara manual ke `data/pdf/`. Cell 1–3 (scraper) bisa dilewati sepenuhnya.
+
 ## Limitasi
 
 1. **Class imbalance** — dari 150 kasus pada `case_base`: DITOLAK 124 (82.7%), TIDAK TERDETEKSI 11 (7.3%), DIPERBAIKI 10 (6.7%), DIKABULKAN 5 (3.3%). Di antara kelas berlabel valid (DITOLAK/DIPERBAIKI/DIKABULKAN saja), proporsinya ±89% / 7% / 4%. Model kesulitan mendeteksi minority class.
