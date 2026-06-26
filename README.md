@@ -1,7 +1,7 @@
-# Sistem Case-Based Reasoning (CBR) — Putusan Kasasi Peradilan Anak ABH
+# Prediksi Outcome Putusan Kasasi Peradilan Anak (ABH) Berbasis Case-Based Reasoning: Studi Komparasi TF-IDF, IndoBERT, dan SVM
 ## Mahkamah Agung Republik Indonesia
 
-> Sistem Case-Based Reasoning (CBR) untuk analisis putusan kasasi perkara Peradilan Anak ABH di Mahkamah Agung RI — menggunakan TF-IDF, IndoBERT, dan SVM
+> Implementasi Case-Based Reasoning untuk prediksi outcome putusan kasasi peradilan anak (ABH) di Mahkamah Agung RI — studi komparasi TF-IDF, IndoBERT, dan SVM dengan mekanisme Hybrid BERT+SVM sebagai konfigurasi terbaik
 
 ---
 
