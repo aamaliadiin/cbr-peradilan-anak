@@ -1,0 +1,19 @@
+# ── Environment 1: PREPROCESSING ────────────────────────────────────
+# Untuk notebook: 01_preprocessing + 02_case_representation
+# Buka Anaconda Prompt / Terminal, lalu:
+#   conda create -n env_preprocessing python=3.10
+#   conda activate env_preprocessing
+#   pip install -r requirements_preprocessing.txt
+
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+pdfplumber>=0.10.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=7.0.0

@@ -1,0 +1,4 @@
+﻿Model,Total,Acc@1,Acc@3,Acc@5,Precision,Recall,F1-Score
+TFIDF,28,0.8571,0.9643,0.9643,0.8571,0.8571,0.8571
+BERT,28,0.8571,0.9286,0.9643,0.8571,0.8571,0.8571
+"SVM (TF-IDF, balanced, train-only)",28,0.9286,N/A (klasifikasi langsung),N/A (klasifikasi langsung),0.8624,0.9286,0.8942

@@ -1,0 +1,352 @@
+[
+  {
+    "query_id": "q001",
+    "case_id_sumber": "case_073",
+    "nomor_perkara": "1476K/PID.SUS/2020",
+    "outcome_kasasi": "DITOLAK",
+    "query_teks": "Pasal 81 Ayat (1) juncto Pasal 76; Pasal 81 Ayat (2) tanggal 11 februari 2020 dari penuntut u umum pada kejaksaan negeri sleman tersebut sebagai pemohon kasasi, g yang diterima di kepaniteraan pengadilan negeri sleman pada tanggal 11 n afebruari 2020; membaca pula surat-surat lain yang bersangkutan; i h tanggal 11 februari 2020 dari penuntut u umum pada kejaksaan negeri sleman tersebut sebagai pemohon kasasi, g yang diterima di kepaniteraan pengadilan negeri sleman pada tanggal 11 n afebruari 2020; membaca pula surat-surat lain yang bersangkutan; i h putusan .mahkamahagung.go.id r nomor 1476 k/pid.sus/2020 demi keadilan berdasarkan ketuhanan yang maha esa n u memeriksa perkara tindak pidana khusus pada tingkat kasasi yang d g dimohonkan oleh penuntut umum pada kejaksaan negeri sleman, telah n amemutus perkara anak : nama : anak; i h tempat lahir : yogyakarta; k umur/tanggal lahir : 17 tahun/5 juli 2002i; l jenis kelamin : laki-laki ; b kewarga menolak permohonan kasasi dari pemohon kasaksi/penuntut umum pada kejaksaan negeri sleman tersebut; i l - membebankan kepada anak untuk membayar biaya perkara pada tingkat b kasasi pidana penjara di LPKA Wonosari selama 2 (dua) tahun dan i 6 (enam) bulan dengan perintah agar segera ditahan dan pelatihan kerja di BPRSR DIY di Sleman selama 2 (dua) bulan menimbang bahwa putusan pengadilan tinggi kyogyakarta tersebut telah diberitahukan kepada penuntut umum pada kejaksaan negeri sleman i l pada tanggal 22 januari 2020 dan penuntut umum tersebut mengajukan b permohonan kasasi pada tanggal 3 februari 2020 serta memori kasasinya u telah diterima di kepa",
+    "ground_truth_tfidf": [
+      "case_150",
+      "case_102",
+      "case_123",
+      "case_090",
+      "case_114"
+    ],
+    "ground_truth_bert": [
+      "case_118",
+      "case_123",
+      "case_150",
+      "case_076",
+      "case_005"
+    ],
+    "skor_tfidf": [
+      0.4621,
+      0.2857,
+      0.2718,
+      0.2329,
+      0.2138
+    ],
+    "skor_bert": [
+      0.9692,
+      0.9683,
+      0.965,
+      0.9635,
+      0.9634
+    ]
+  },
+  {
+    "query_id": "q002",
+    "case_id_sumber": "case_038",
+    "nomor_perkara": "12067K/PID.SUS/2025",
+    "outcome_kasasi": "DITOLAK",
+    "query_teks": "Pasal 340; Pasal 56 tanpa tanggal bulan oktober 2025 dari penuntut umgum pada kejaksaan negeri kabupaten bandung sebagai pemohon kasasi yang diterima di kepaniteraan pengadilan negeri bale n bandung tanggal 22 oktober 2025; u membaca pula surat-surat lain yang bersangkutan; d g tanpa tanggal bulan oktober 2025 dari penuntut umgum pada kejaksaan negeri kabupaten bandung sebagai pemohon kasasi yang diterima di kepaniteraan pengadilan negeri bale n bandung tanggal 22 oktober 2025; u membaca pula surat-surat lain yang bersangkutan; d g putusan.mahkamahagung.go.id r nomor 12067 k/pid.sus/2025 demi keadilan berdasarkan ketuhanan yang maha esa n u gmemeriksa perkara tindak pidana khusus pada tingkat kadsasi yang dimohonkan oleh penuntut umum pada kejaksaan nengeri kabupaten a bandung, telah memutus perkara anak: i nama : rizky gunawan bin dadang roh ; h k tempat lahir : bandung; i umur/tanggal lahir : 16 tahun/26 juni l2009; b jeni menolak permohonan kasasi dari pemohon kasasi/penuntut umum d g pada kejaksaan negeri kabupaten bandung tersebut; n a- membebankan kepada anak untuk membayar biaya perkara pada tingkat kasasi pidana pembinaan dalam lembaga selama 2 (dua) tahun menimbang bahwa putusan pengadilan tinggi bandung tersebut n atelah diberitahukan kepada penuntut umum pada kejaksaan negeri kabupaten bandung pada tanggal 22 oktober 2025 dani penuntut umum htersebut mengajukan permohonan kasasi pada taknggal 22 oktober 2025 serta memori kasasinya telah diterima di",
+    "ground_truth_tfidf": [
+      "case_039",
+      "case_029",
+      "case_005",
+      "case_057",
+      "case_036"
+    ],
+    "ground_truth_bert": [
+      "case_039",
+      "case_037",
+      "case_005",
+      "case_103",
+      "case_055"
+    ],
+    "skor_tfidf": [
+      0.6909,
+      0.2298,
+      0.2159,
+      0.212,
+      0.2002
+    ],
+    "skor_bert": [
+      0.9795,
+      0.9658,
+      0.9634,
+      0.9607,
+      0.9599
+    ]
+  },
+  {
+    "query_id": "q003",
+    "case_id_sumber": "case_048",
+    "nomor_perkara": "12090K/PID.SUS/2025",
+    "outcome_kasasi": "DITOLAK",
+    "query_teks": "Pasal 81 Ayat (2) Undang-Undang Nomor 17 Tahun 2016; Pasal 8 Ayat (2) Undang-Undang Nomor 48 Tahun 2009 tentang Kekuasan Kehakiman; Pasal 82 Ayat (1); Pasal 1 tanggal 31 oktober 2 k 025 dari penuntut umum pada kejaksaan negeri labuhanbatu tersebut sebagai pemohon i kasasi, yang diterima di kepaniteraan pengadilan negleri rantau prapat pada b tanggal 31 oktober 2025; membaca pula surat-surat lain yang ubersangkutan; tanggal 31 oktober 2 k 025 dari penuntut umum pada kejaksaan negeri labuhanbatu tersebut sebagai pemohon i kasasi, yang diterima di kepaniteraan pengadilan negleri rantau prapat pada b tanggal 31 oktober 2025; membaca pula surat-surat lain yang ubersangkutan; putusan.mahkamahagung.go.id nomor 12090 k/pid.sus/2025 demi keadilan berdasarkan ketuhanan yang maha esa g n memeriksa perkara tindak pidana khusus pada tingkat kasasi yang dimuohonkan oleh penuntut umum pada kejaksaan negeri labuhanbatu, telah memutus perkara anak: d g nama : fadli amsal muda simamora alias n a fadli; i tempat lahir : tanjung harapan; h umur/tanggal lahir : 17 tahun/7 oktober 200 menolak permohonan kasasi dari pemohon kasasi/penuntut umum pada kejaksaan negeri labuhanbatu tersebut; d g - membebankan kepada anak untuk membayar biaya perkara pada tingkat n a kasasi pidana penjara selama 5 (lima) tahun di LPKA dikurangi selama Anak FADLI AMSAL MUDA SIMAMORA alias FADLI beradan dalam tahanan dan pelatihan kerja selama 6 (enam) bulan menimbang bahwa putusan pengadilan tinggi medan tersebut telah p diberitahukan kepada penuntut umum pada kejaksaan negeri labuhanbatu e halamran 3 dari 7 halaman putusan nomor 12090 k/pid.sus/2025 g n u g putusan.mahkamahagung.go.id pada tanggal 29 okrtober 2025, dan penuntut umum tersebut mengajuka",
+    "ground_truth_tfidf": [
+      "case_082",
+      "case_031",
+      "case_128",
+      "case_032",
+      "case_126"
+    ],
+    "ground_truth_bert": [
+      "case_126",
+      "case_054",
+      "case_011",
+      "case_121",
+      "case_031"
+    ],
+    "skor_tfidf": [
+      0.2724,
+      0.2168,
+      0.1914,
+      0.1884,
+      0.1882
+    ],
+    "skor_bert": [
+      0.9698,
+      0.9692,
+      0.968,
+      0.9677,
+      0.9676
+    ]
+  },
+  {
+    "query_id": "q004",
+    "case_id_sumber": "case_109",
+    "nomor_perkara": "6791K/PID.SUS/2026",
+    "outcome_kasasi": "DITOLAK",
+    "query_teks": "Pasal 114 Ayat (1) Undang-Undang Nomor 35 Tahun 2009; Pasal 308 Ayat (1) Undang-Undang Nomor 20 Tahun 2025; Pasal 54 Undang-Undang Nomor 1 Tahun 2023; Pasal 114 Ayat (1); Pasal 20 tanggal 16 april 2026 dari penuntut umum u pada cabang kejaksaan negeri tana toraja di rantepao sebagai d g pemohon kasasi yang diterima di kepaniteraan pengadilan negeri makale n apada tanggal 16 april 2026; membaca pula surat-surat lain yang bersangkutan; i h tanggal 16 april 2026 dari penuntut umum u pada cabang kejaksaan negeri tana toraja di rantepao sebagai d g pemohon kasasi yang diterima di kepaniteraan pengadilan negeri makale n apada tanggal 16 april 2026; membaca pula surat-surat lain yang bersangkutan; i h putusan.mahkamahagung.go.id r nomor 6791 k/pid.sus/2026 demi keadilan berdasarkan ketuhanan yang maha esa n u memeriksa perkara tindak pidana khusus pada tingkat kasasi yang d g dimohonkan oleh penuntut umum pada cabang kejaksaan negeri tana n atoraja di rantepao, telah memutus perkara anak: nama : gregorius alvin ranniu alias alvin; h tempat lahir : sa'dan tiroallo; k umur/tanggal lahir : 17 tahu menolak permohonan kasasi dari pemohon kasasi pidana penjara selama 5 (lima) tahun di Lemba Pembinaan Khusus Anak (LKPA) Kelas II Maros dan 8 menimbang bahwa putusan pengadilan tingkgi makassar tersebut telah diberitahukan kepada penuntut umum paida cabang kejaksaan l negeri tana toraja di rantepao secara elektronik melalui aplikasi e- b berpadu pada tanggal 2 april 2026 dan penuntut umum tersebut u mengajukan permohonan kasasi pada tangg",
+    "ground_truth_tfidf": [
+      "case_051",
+      "case_107",
+      "case_111",
+      "case_096",
+      "case_112"
+    ],
+    "ground_truth_bert": [
+      "case_081",
+      "case_080",
+      "case_092",
+      "case_089",
+      "case_104"
+    ],
+    "skor_tfidf": [
+      0.2744,
+      0.2198,
+      0.2159,
+      0.1962,
+      0.1958
+    ],
+    "skor_bert": [
+      0.9582,
+      0.9518,
+      0.9507,
+      0.9504,
+      0.9481
+    ]
+  },
+  {
+    "query_id": "q005",
+    "case_id_sumber": "case_125",
+    "nomor_perkara": "8693K/PID.SUS/2025",
+    "outcome_kasasi": "DITOLAK",
+    "query_teks": "Pasal 80 Ayat (2) Undang-Undang Nomor 35 Tahun 2014; Pasal 76; Pasal 80 Ayat (1) tanggal 9 juli 2025 dari penuntut umum g pada kejaksaan negeri rejang lebong tersebut sebagai pemohon n akasasi, yang diterima di kepaniteraan pengadilan negeri curup pada tanggal 11 juli 2025; i h membaca pula surat-surat lain yang bersangkutakn; tanggal 9 juli 2025 dari penuntut umum g pada kejaksaan negeri rejang lebong tersebut sebagai pemohon n akasasi, yang diterima di kepaniteraan pengadilan negeri curup pada tanggal 11 juli 2025; i h membaca pula surat-surat lain yang bersangkutakn; putusan.mahkamahagung.go.id r nomor 8693 k/pid.sus/2025 demi keadilan berdasarkan ketuhanan yang maha esa n memeriksa perkara pidana khusus pada tingkat kasasi yang dimdohonkan g oleh penuntut umum pada kejaksaan negeri rejang lebong, telah n a memutus perkara anak: i nama : anak; h k tempat lahir : pungguk lalang; i umur/tanggal lahir : 17 tahun/10 juni 2007; l b jenis kelamin : laki-laki; kewarg mengabulkan permohonan restitusi dari pihak anak korban melalui g permohonan Lembaga Pembinaan Khusus Anak Kelas II Bengkulu dan pelatihan kerja selama 1 (satu) bulan menimbang bahwa putusan pengadilan tingigi bengkulu tersebut l telah diberitahukan kepada penuntut umum pada kejaksaan negeri b rejang lebong melalui surat tercatat yang diterima pada tanggal 3 juli u 2025 dan penuntut umum pada kejaksaan negeri rejang lebong p tersebut mengajukan permohonan kasasi ",
+    "ground_truth_tfidf": [
+      "case_113",
+      "case_119",
+      "case_124",
+      "case_136",
+      "case_134"
+    ],
+    "ground_truth_bert": [
+      "case_019",
+      "case_136",
+      "case_119",
+      "case_123",
+      "case_124"
+    ],
+    "skor_tfidf": [
+      0.3022,
+      0.2724,
+      0.2365,
+      0.2239,
+      0.2238
+    ],
+    "skor_bert": [
+      0.959,
+      0.9581,
+      0.9577,
+      0.9563,
+      0.956
+    ]
+  },
+  {
+    "query_id": "q006",
+    "case_id_sumber": "case_026",
+    "nomor_perkara": "11593K/PID.SUS/2025",
+    "outcome_kasasi": "DITOLAK",
+    "query_teks": "Pasal 76; Pasal 81 Ayat (1) tanggal 30 september 2025 dari penuntu u umum pada kejaksaan negeri solok selatan sebagai pemohon kasasi, yan d g diterima di kepaniteraan pengadilan negeri koto baru pada tanggal 1 oktobe n a2025; tanggal 30 september 2025 dari penuntu u umum pada kejaksaan negeri solok selatan sebagai pemohon kasasi, yan d g diterima di kepaniteraan pengadilan negeri koto baru pada tanggal 1 oktobe n a2025; putusan.mahkamahagung.go.id r nomor 11593 k/pid.sus/2025 demi keadilan berdasarkan ketuhanan yang maha esa n u d g memeriksa perkara tindak pidana khusus pada tingkat kasasi yan n a dimohonkan oleh penuntut umum pada kejaksaan negeri solok selatan i telah memutus perkara anak: h k nama : anak; tempat lahir : gunung pasir; i l umur/tanggal lahir : 16 tahun/12b september 2009; jenis kelamin : laki-l menolak permohonan kasasi pidana pembinaan di dala lembaga selama 2 (dua) tahun menimbang bahwa putusan pengadilan tinggi padiang tersebut tela hdiberitahukan kepada penuntut umum pada kejaksakan negeri solok selata yang dikirim secara elektronik melalui aplikaisi e-berpadu tanggal 2 l september 2025 dan penuntut umum tersebut mengajukan permohona b kasasi pada tanggal 24 septe",
+    "ground_truth_tfidf": [
+      "case_020",
+      "case_021",
+      "case_128",
+      "case_037",
+      "case_022"
+    ],
+    "ground_truth_bert": [
+      "case_119",
+      "case_012",
+      "case_055",
+      "case_008",
+      "case_102"
+    ],
+    "skor_tfidf": [
+      0.187,
+      0.1718,
+      0.1618,
+      0.1593,
+      0.156
+    ],
+    "skor_bert": [
+      0.9611,
+      0.9606,
+      0.9597,
+      0.9588,
+      0.9588
+    ]
+  },
+  {
+    "query_id": "q007",
+    "case_id_sumber": "case_091",
+    "nomor_perkara": "32/PID.SUS-ANAK/2025",
+    "outcome_kasasi": "DITOLAK",
+    "query_teks": "Pasal 81 Ayat (1) Undang-Undang Nomor 17 Tahun 2016; Pasal 81 Ayat (2) Undang-Undang Nomor 17 Tahun 2016; Pasal 76; Pasal 64 Ayat (1) selengkapnya termuat dalam berkas perkara; g n u g putusan.mahkamahagung.go.id r selengkapnya termuat dalam berkas perkara; g n u g putusan.mahkamahagung.go.id r putusan.mahkamahagung.go.id r nomor k/pid.sus/2026 demi keadilan berdasarkan ketuhanan yang maha esa n u memeriksa perkara tindak pidana khusus pada tingkat kasasi yang dimohonkan d g oleh penuntut umum pada kejaksaan negeri bangka selatan, telah memutus n a perkara anak: i nama : anak; h tempat lahir : bangka selatan; k umur/tanggal lahir : 17 tahun/8 mei 20i08; l jenis kelamin : laki-laki; b kew menolak permohonan kasasi dari pemohon kasasi/penuntut umum pada d g kejaksaan negeri bangka selatan tersebut; n a- membebankan kepada anak untuk membayar biaya perkara pada tingkat kasasi pidana penjara selama 9 (sembilan) bulan dan pelatihan kerja selama 3 (tiga) bulan pada menimbang bahwa putusan pengadilan tinggi bangka belitung tersebut n atelah diberitahukan kepada penuntut umum pada kejaksaan negeri bangka selatan pada tanggal 1 februari 2026 dan penuntut umum tersebiut mengajukan hpermohonan kasasi pada tanggal 12 februari 2026 serta mkemori kasasinya telah diter",
+    "ground_truth_tfidf": [
+      "case_093",
+      "case_101",
+      "case_090",
+      "case_117",
+      "case_087"
+    ],
+    "ground_truth_bert": [
+      "case_101",
+      "case_076",
+      "case_092",
+      "case_123",
+      "case_088"
+    ],
+    "skor_tfidf": [
+      0.2737,
+      0.2453,
+      0.2301,
+      0.221,
+      0.2194
+    ],
+    "skor_bert": [
+      0.9675,
+      0.9625,
+      0.9622,
+      0.9613,
+      0.961
+    ]
+  },
+  {
+    "query_id": "q008",
+    "case_id_sumber": "case_137",
+    "nomor_perkara": "9730K/PID.SUS/2025",
+    "outcome_kasasi": "DITOLAK",
+    "query_teks": "Pasal 8 Ayat (2) Undang-Undang Nomor 48 Tahun 2009 tentang Kekuasaan Kehakiman; Pasal 82 Ayat (1) juncto Pasal 82 Ayat (2) juncto Pasal 76; Pasal 6 tanggal 4 agustus 2025 dari penuntut umum pada kuejaksaan negeri sambas tersebut sebagai pemohon kasasi, yang diterima di kepaniteraan pengadilan negeri sambas pada tanggald 6 agustus g 2025; n a membaca pula surat-surat lain yang bersangkutan; i tanggal 4 agustus 2025 dari penuntut umum pada kuejaksaan negeri sambas tersebut sebagai pemohon kasasi, yang diterima di kepaniteraan pengadilan negeri sambas pada tanggald 6 agustus g 2025; n a membaca pula surat-surat lain yang bersangkutan; i putusan.mahkamahagung.go.id r nomor 9730 k/pid.sus/2025 g demi keadilan berdasarkan ketuhanan yang maha esa n u memeriksa perkara pidana khusus pada tingkat kasasi yang dimohonkan oleh d g penuntut umum pada kejaksaan negeri sambas, telah memutus perkara para n aanak: i. nama : anak i; i h tempat lahir : sambas; k umur/tanggal lahir : 18 tahun/20 februari 2007; i l jenis kelamin : laki-laki; b kew memperbaiki i putusan judex facti dalam perkara a quo; h k menimbang bahwa berdasarkan pertimbangan tersebut dan ternyata i pula, putusan judex facti dalam perkara ini tidak bertentangan dengan hukum l b dan/atau undang-undang, maka permohonan kasasi pidana penjara masing-masing selama 6 (enam) bulan menimbang bahwa putusan pengadilan tinggi pon tianak tersebut telah h k diberitahukan kepada penuntut umum pada kejaksaan negeri sambas melalui i e-berpadu yang dikirimkan pada tanggal 24 juli 2025 dan penuntut umum l b pada kejaksaan negeri sambas tersebut mengajukan permohonan kasasi pada tanggal ",
+    "ground_truth_tfidf": [
+      "case_127",
+      "case_143",
+      "case_132",
+      "case_064",
+      "case_103"
+    ],
+    "ground_truth_bert": [
+      "case_143",
+      "case_120",
+      "case_085",
+      "case_007",
+      "case_056"
+    ],
+    "skor_tfidf": [
+      0.3769,
+      0.3326,
+      0.3209,
+      0.3163,
+      0.256
+    ],
+    "skor_bert": [
+      0.9701,
+      0.9688,
+      0.9667,
+      0.9666,
+      0.9664
+    ]
+  },
+  {
+    "query_id": "q009",
+    "case_id_sumber": "case_069",
+    "nomor_perkara": "12382K/PID.SUS/2025",
+    "outcome_kasasi": "DITOLAK",
+    "query_teks": "Pasal 363 Ayat (2); Pasal 197 Ayat (1) tanggal 12 desember 2025 dari penuntut umum pada kejaksaan negeri kapuas tersebut sebagai pemonhon kasasi i, a yang diterima di kepaniteraan pengadilan negeri kapuas pada tanggal 12 i hdesember 2025; k membaca memori kasasi tanggal 15 desember 2025 dari penasihat i hukum para anak tersebut berdasarkan surat kluasa khusus tanggal 14 b november 2025 sebagai pemohon kasasi ii, yang diterima di kepaniteraan u pengadilan negeri kuala kapuas pada tanggal 15 desember 2025; p membaca pula surat-surat lain yang bersangkutan; tanggal 12 desember 2025 dari penuntut umum pada kejaksaan negeri kapuas tersebut sebagai pemonhon kasasi i, a yang diterima di kepaniteraan pengadilan negeri kapuas pada tanggal 12 i hdesember 2025; k membaca memori kasasi tanggal 15 desember 2025 dari penasihat i hukum para anak tersebut berdasarkan surat kluasa khusus tanggal 14 b november 2025 sebagai pemohon kasasi ii, yang diterima di kepaniteraan u pengadilan negeri kuala kapuas pada tanggal 15 desember 2025; p membaca pula surat-surat lain yang bersangkutan; putusan.mahkamahagung.go.id r nomor 12382 k/pid.sus/2025 demi keadilan berdasarkan ketuhanan yang maha esa n u d g memeriksa perkara tindak pidana khusus pada tingkat kasasi yang n adimohonkan oleh penuntut umum pada kejaksaan negeri kapuas dan para anak, telah memutus perkara para anak: i hi. nama : ahmad ramadanki bin muhamat dodi; tempat lahir : pujon; i l umur/tanggal lah:i r 18 tahun/14 septe menolak permohonan kasasi dari pemohon kasasi pidana penjara selama 1 (satu) tahun 6 (enam) bulan di Lembaga Pembinaan menimbang bahwa putusean pengadilan tinggi palangkaraya tersebut telah diberitahukan kepadar penuntut umum pada kejaksaan negeri kapuas g k/pid.sus/2025 n u g putusan.mahkamahagung.go.id r melalui aplikasi e-summons pada tanggal 8 desember 2025 dan penuntut umum tersebgut mengajukan permohonan kasas",
+    "ground_truth_tfidf": [
+      "case_146",
+      "case_145",
+      "case_017",
+      "case_062",
+      "case_065"
+    ],
+    "ground_truth_bert": [
+      "case_050",
+      "case_014",
+      "case_042",
+      "case_116",
+      "case_017"
+    ],
+    "skor_tfidf": [
+      0.3135,
+      0.2457,
+      0.2397,
+      0.2339,
+      0.2272
+    ],
+    "skor_bert": [
+      0.9649,
+      0.9641,
+      0.96,
+      0.9594,
+      0.9563
+    ]
+  },
+  {
+    "query_id": "q010",
+    "case_id_sumber": "case_127",
+    "nomor_perkara": "8941K/PID.SUS/2025",
+    "outcome_kasasi": "DIPERBAIKI",
+    "query_teks": "Pasal 8 Ayat (2) Undang-Undang Nomor 48 Tahun 2009 tentang Kekuasaan Kehakiman; Pasal 82 Ayat (1) juncto Pasal 76; Pasal 197 Ayat (1) tanggal 17 juli 2025 darii penuntut umum hpada kejaksaan negeri baubau tersebut sebagai kpemohon kasasi, yang diterima di kepaniteraan pengadilan negeri bauibau pada tanggal 17 juli l 2025; b membaca pula surat-surat lain yang bersangkutan; u tanggal 17 juli 2025 darii penuntut umum hpada kejaksaan negeri baubau tersebut sebagai kpemohon kasasi, yang diterima di kepaniteraan pengadilan negeri bauibau pada tanggal 17 juli l 2025; b membaca pula surat-surat lain yang bersangkutan; u putusan.mahkamahagung.go.id r nomor 8941 k/pid.sus/2025 demi keadilan berdasarkan ketuhanan yang maha esa n memeriksa perkara pidana khusus pada tingkat kasasi yang ddimohonkan g oleh penuntut umum pada kejaksaan negeri baubau, telah memutus n a perkara anak: i nama : anak; h k tempat lahir : baubau; i umur/tanggal lahir : 17 tahun/2 juni 2007; l b jenis kelamin : laki-laki; kewarganegaraan : indo memperbaiki putusan judex facti dalam perkara a quo; p menimbang bahwa berdasarkan pertimbangan tersebut dan ternyata pula, putusan judex facti dalame perkara ini tidak bertentangan dengan hukum dan/atau undang-undanrg, maka permohonan kasasi pidana penjara selama 1 (satu) tahun menimbang bahwa putusan pengadilan tinggi sulawesi tenggara p tersebut telah diberitahukan kepada penuntut umum pada kejaksaan negeri baubau pada tanggal 3 julei 2025 dan penuntut umum pada kejaksaan negeri baubau terseburt mengajukan permohonan kasasi pada tanggal 11 juli 2025 serta memori kasasiny",
+    "ground_truth_tfidf": [
+      "case_137",
+      "case_064",
+      "case_143",
+      "case_115",
+      "case_028"
+    ],
+    "ground_truth_bert": [
+      "case_056",
+      "case_074",
+      "case_115",
+      "case_137",
+      "case_046"
+    ],
+    "skor_tfidf": [
+      0.3769,
+      0.2822,
+      0.2751,
+      0.2471,
+      0.2253
+    ],
+    "skor_bert": [
+      0.9693,
+      0.9663,
+      0.9654,
+      0.965,
+      0.9648
+    ]
+  }
+]

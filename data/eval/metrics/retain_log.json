@@ -1,0 +1,187 @@
+{
+  "iterasi": 2,
+  "timestamp": "2026-06-26 20:54:23",
+  "case_base_sebelum": 150,
+  "kandidat_retain": 28,
+  "entry_diupdate": 28,
+  "entry_ditambahkan": 0,
+  "entry_diskip": 0,
+  "case_base_sesudah": 150,
+  "kriteria": {
+    "prediksi_benar": true,
+    "confidence_threshold": 0.4,
+    "kolom_prediksi": "predicted_outcome_hybrid",
+    "update_existing": true
+  },
+  "detail_updated": [
+    {
+      "case_id": "case_002",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8875,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_004",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8846,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_024",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8843,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_026",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8876,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_029",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8853,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_035",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8852,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_038",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8857,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_044",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8905,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_048",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8895,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_056",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8829,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_060",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8914,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_067",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8916,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_068",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8897,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_069",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8841,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_073",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8932,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_078",
+      "outcome": "DIKABULKAN",
+      "svm_conf": 0.9015,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_091",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8825,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_092",
+      "outcome": "DIPERBAIKI",
+      "svm_conf": 0.8854,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_105",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8936,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_106",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8911,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_108",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8887,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_109",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8944,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_125",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8885,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_127",
+      "outcome": "DIPERBAIKI",
+      "svm_conf": 0.8853,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_131",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8881,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_137",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8779,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_144",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8886,
+      "aksi": "UPDATE"
+    },
+    {
+      "case_id": "case_146",
+      "outcome": "DITOLAK",
+      "svm_conf": 0.8887,
+      "aksi": "UPDATE"
+    }
+  ],
+  "detail_added": []
+}

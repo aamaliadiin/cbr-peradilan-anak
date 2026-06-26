@@ -1,0 +1,52 @@
+## =========================================================================
+## .gitignore — Project CBR Kasasi Peradilan Anak (Mahkamah Agung)
+## Disusun berdasarkan output notebook 01_preprocessing s.d. 06_evaluation
+## Catatan: folder data/ dan logs/ SENGAJA tidak di-exclude (ikut ke-commit)
+## =========================================================================
+
+## ---- File checkpoint & riwayat scraper notebook 01 (di root project) ----
+## (boleh dihapus dari sini juga kalau mau ikut di-commit)
+progress_checkpoint_cbr.txt
+riwayat_terunduh_cbr.txt
+
+## ---- Jupyter ----
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/*
+
+## ---- Python ----
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+## ---- Virtual environment / Conda ----
+venv/
+env/
+.venv/
+ENV/
+.conda/
+
+## ---- Browser/scraper artefak (SeleniumBase / undetected-chromedriver) ----
+*.driver.log
+geckodriver.log
+chromedriver.log
+downloaded_files/
+uc_driver/
+
+## ---- VSCode ----
+.vscode/
+*.code-workspace
+
+## ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+## ---- Environment variables / secrets ----
+.env
+.env.*

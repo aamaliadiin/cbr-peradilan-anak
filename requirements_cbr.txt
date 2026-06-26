@@ -1,0 +1,20 @@
+# ── Environment 2: CBR PIPELINE ─────────────────────────────────────
+# Untuk notebook: 03_case_retrieval + 04_case_reuse + 05_evaluation
+# Buka Anaconda Prompt / Terminal, lalu:
+#   conda create -n env_cbr python=3.10
+#   conda activate env_cbr
+#   pip install -r requirements_cbr.txt
+#
+# Jika punya GPU NVIDIA, install torch versi CUDA dulu sebelum perintah di atas:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+pdfplumber>=0.10.0
+transformers>=4.35.0
+torch>=2.0.0
+matplotlib>=3.7.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
+notebook>=7.0.0

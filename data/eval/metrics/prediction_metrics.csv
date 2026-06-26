@@ -1,0 +1,5 @@
+﻿Model,Total,Accuracy,Precision,Recall,F1-Score
+Majority Vote,28,0.8929,0.7972,0.8929,0.8423
+Weighted Similarity,28,0.8214,0.8542,0.8214,0.8375
+SVM (balanced),28,0.9286,0.8624,0.9286,0.8942
+Hybrid BERT+SVM,28,1.0,1.0,1.0,1.0
