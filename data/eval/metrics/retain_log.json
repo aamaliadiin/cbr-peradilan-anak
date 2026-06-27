@@ -1,6 +1,6 @@
 {
   "iterasi": 2,
-  "timestamp": "2026-06-26 20:54:23",
+  "timestamp": "2026-06-27 23:56:28",
   "case_base_sebelum": 150,
   "kandidat_retain": 28,
   "entry_diupdate": 28,
@@ -17,169 +17,169 @@
     {
       "case_id": "case_002",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8875,
+      "svm_conf": 0.8868,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_004",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8846,
+      "svm_conf": 0.8855,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_024",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8843,
+      "svm_conf": 0.8845,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_026",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8876,
+      "svm_conf": 0.8893,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_029",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8853,
+      "svm_conf": 0.8859,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_035",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8852,
+      "svm_conf": 0.8817,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_038",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8857,
+      "svm_conf": 0.8861,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_044",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8905,
+      "svm_conf": 0.8887,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_048",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8895,
+      "svm_conf": 0.8908,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_056",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8829,
+      "svm_conf": 0.8874,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_060",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8914,
+      "svm_conf": 0.8917,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_067",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8916,
+      "svm_conf": 0.8908,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_068",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8897,
+      "svm_conf": 0.8902,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_069",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8841,
+      "svm_conf": 0.8802,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_073",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8932,
+      "svm_conf": 0.8919,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_078",
       "outcome": "DIKABULKAN",
-      "svm_conf": 0.9015,
+      "svm_conf": 0.9035,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_091",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8825,
+      "svm_conf": 0.8828,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_092",
       "outcome": "DIPERBAIKI",
-      "svm_conf": 0.8854,
+      "svm_conf": 0.8845,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_105",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8936,
+      "svm_conf": 0.8942,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_106",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8911,
+      "svm_conf": 0.8906,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_108",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8887,
+      "svm_conf": 0.8897,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_109",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8944,
+      "svm_conf": 0.8938,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_125",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8885,
+      "svm_conf": 0.8871,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_127",
       "outcome": "DIPERBAIKI",
-      "svm_conf": 0.8853,
+      "svm_conf": 0.884,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_131",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8881,
+      "svm_conf": 0.8859,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_137",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8779,
+      "svm_conf": 0.8787,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_144",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8886,
+      "svm_conf": 0.89,
       "aksi": "UPDATE"
     },
     {
       "case_id": "case_146",
       "outcome": "DITOLAK",
-      "svm_conf": 0.8887,
+      "svm_conf": 0.8899,
       "aksi": "UPDATE"
     }
   ],
